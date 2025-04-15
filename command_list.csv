@@ -1,0 +1,51 @@
+    1  git config --global user.name "Svyatoslav Kulynyak"
+    2  git config --global user.email "svyatkul@gmail.com"
+    3  git config --global --list
+    4  git clone <https://github.com/SvyatolsavKu/HW_10.git>
+    5  git clone https://github.com/SvyatolsavKu/HW_10.git
+    6  cd HW_10/
+    7  touech text_ignore.txt
+    8  touch text_ignore.txt
+    9  touch .gitignore
+   10  touch text_ignore.txt
+   11  echo "text_ignore.txt" >> .gitignore
+   12  git add .gitignore
+   13  git status
+   14  git add Lesson
+   15  git add .” 
+   16  git add .” git add .
+   17  git add .
+   18  git status
+   19  git commit -m Зміна №1
+   20  git commit -m зміна
+   21  touch main_test.txt
+   22  git add .
+   23  git commit -m зміна2
+   24  git checkout -b <нова_гілка>
+   25  git checkout -b <нова_гілка>
+   26  git checkout -b Нова_гілка
+   27  git checkout Нова_гілка
+   28  git branch -m Нова_гілка develop
+   29  touch develop_test.txt
+   30  git add .
+   31  git commit -m зміна3
+   32  nano just a small change
+   33  git status
+   34  echo "just" >> .gitignore
+   35  git add .gitignore
+   36  git add .
+   37  git commit -m Ігнорування_just
+   38  git checkout
+   39  git status
+   40  git checkout
+   41  git status
+   42  git checkout main
+   43  git merge develop
+   44  git log
+   45  history 0 > command_list.csv
+   46  git add .
+   47  git commit
+   48  git commit -m  Зміна4
+   49  git push
+   50  git push
+   51  history > command_list.csv
